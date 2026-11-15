@@ -1,0 +1,10 @@
+-r requirements.txt
+# Windows only: reads the watermark in QC (Apple Vision does it on Mac).
+# Installed by setup_windows.ps1 with --no-deps, because RapidOCR would pull in a second OpenCV
+# (opencv-python) that clashes with opencv-contrib-python. Its other needs are listed below.
+onnxruntime==1.32.0
+pyclipper==1.4.0
+shapely==2.2.0
+PyYAML==6.0.3
+six==1.17.0
+tqdm==4.70.1
