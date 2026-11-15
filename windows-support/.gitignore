@@ -1,0 +1,18 @@
+# Big or personal files stay out of GitHub. Videos, music and B-roll live in the shared Drive folder.
+work/
+output/
+input/
+.venv/
+__pycache__/
+.DS_Store
+brand/music/
+brand/sfx/
+*.mp4
+*.mov
+*.m4v
+*.webm
+*.mkv
+*.wav
+*.mp3
+*.m4a
+*.aac
